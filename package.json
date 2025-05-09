@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "nodemon app.js"
   },
   "author": "bharath kumar",
   "license": "ISC",
@@ -14,6 +14,8 @@
   },
   "dependencies": {
     "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "formidable": "^3.5.4",
     "minimist": "^1.2.8"
   }
 }
